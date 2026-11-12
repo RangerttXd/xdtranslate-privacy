@@ -15,32 +15,24 @@
   <nav aria-label="语言 / Language"><a href="#zh" lang="zh-CN">简体中文</a> · <a href="#en" lang="en">English</a></nav>
   <article id="zh" lang="zh-CN">
   <h1>XdTranslate 隐私政策</h1>
-  <p>适用于 XdTranslate 1.1.2。</p>
+  <p>适用于 Microsoft Edge 加载项商店发布的 XdTranslate 1.1.3。</p>
 
   <h2>本机翻译</h2>
-  <p>XdTranslate 在你发起整页翻译、正文双语或划词翻译时读取需要翻译的文字。默认模式通过浏览器的本机翻译功能处理这些文字。首次使用某些语言时，浏览器可能下载语言包。XdTranslate 不会在默认模式下向扩展开发者或 OpenAI 发送待翻译文字。</p>
+  <p>当你发起整页翻译、正文双语或划词翻译时，XdTranslate 读取需要翻译的文字，并在设备上通过 Microsoft Edge 的本机翻译功能处理。首次使用某些语言时，浏览器可能下载语言包。</p>
 
-  <h2>可选的 AI 精译</h2>
-  <p>当你启用 AI 精译、连接另行运行的本机助手并发起翻译时，扩展将待翻译文字和语言选项交给本机助手。助手用你提供的 API Key 将这些数据发送到 OpenAI API 以获取译文。提交的文字可能包含个人信息，是否使用此功能由你决定。</p>
-  <p>助手在 API 请求中设置 <code>store: false</code>。OpenAI 对 API 数据的处理及保留取决于其政策和你的账户设置。<a href="https://platform.openai.com/docs/guides/your-data">OpenAI API 数据说明</a>。</p>
-
-  <h2>设置和配对信息</h2>
-  <p>扩展将语言和翻译引擎设置保存在浏览器本地。AI 助手的配对码保存在当前浏览器会话中。API Key 由本机助手读取，扩展不会保存 API Key。你可以关闭助手或切回本机翻译，也可以从 Edge 移除扩展及其本地设置。</p>
+  <h2>数据和设置</h2>
+  <p>扩展不会将网页文字、选中文字或译文发给开发者或第三方服务，也不会记录浏览历史。原文语言、译文语言和显示方式保存在浏览器本地。你可以在扩展面板里修改这些设置，或通过卸载扩展移除设置。</p>
   </article>
 
   <article id="en" lang="en">
     <h1>XdTranslate Privacy Policy</h1>
-    <p>This policy applies to XdTranslate 1.1.2.</p>
+    <p>This policy applies to XdTranslate 1.1.3 distributed through the Microsoft Edge Add-ons store.</p>
 
     <h2>On-device translation</h2>
-    <p>When you request a full-page, bilingual article, or selected-text translation, XdTranslate reads the text needed for that translation. By default, it uses the browser’s on-device translation feature. The browser may download language packs when you first use certain languages. In this mode, XdTranslate does not send the text to the extension developer or OpenAI.</p>
+    <p>When you request full-page, bilingual article, or selected-text translation, XdTranslate reads the text needed for the request and processes it on your device using Microsoft Edge’s built-in translation feature. The browser may download language packs when you first use certain languages.</p>
 
-    <h2>Optional AI translation</h2>
-    <p>If you enable AI translation, connect the separately run local helper, and request a translation, the extension passes the text and language selections to the helper. The helper sends this data to the OpenAI API using the API key you provide. Submitted text may include personal information. You choose whether to use this mode.</p>
-    <p>The helper sets <code>store: false</code> on API requests. OpenAI handles and retains API data according to its policies and your account settings. See <a href="https://platform.openai.com/docs/guides/your-data">OpenAI’s API data documentation</a>.</p>
-
-    <h2>Settings and pairing</h2>
-    <p>The extension stores language and translation engine settings locally in the browser. It stores the helper’s pairing code in the current browser session. The local helper reads the API key. The extension does not store it. You can close the helper, switch back to on-device translation, or remove the extension and its local settings from Edge.</p>
+    <h2>Data and settings</h2>
+    <p>The extension does not send page text, selected text, or translations to the developer or a third-party service. It does not record browsing history. It stores your source language, target language, and display preferences in the browser. You can change them in the extension panel or remove them by uninstalling the extension.</p>
   </article>
 </main>
 </html>
